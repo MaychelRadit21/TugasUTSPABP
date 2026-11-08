@@ -52,8 +52,4 @@ Database tersimpan di `server/data/laundry.db` dan otomatis berisi data contoh s
 | Pesanan | `GET/POST /pesanan`, `GET/PUT/DELETE /pesanan/:id`, `PATCH /pesanan/:id/status`, `PATCH /pesanan/:id/bayar` |
 | Lainnya | `GET /stats`, `GET /health` |
 
-Tabel lengkap (Method, Endpoint, Request, Response) ada di [`docs/DOKUMENTASI.md`](docs/DOKUMENTASI.md).
 
-## Catatan Tim
-
-Setiap anggota wajib melakukan commit dari akun GitHub masing-masing. API ini tanpa autentikasi dan hanya untuk penggunaan lokal/akademik.
