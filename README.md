@@ -22,14 +22,12 @@ Manual:
 
 ```sh
 npm install
-npm run dev        # API di :3001 + web di http://127.0.0.1:5173
-```
+npm run dev      ```
 
 Mode produksi (satu server, web ikut disajikan Express):
 
 ```sh
-npm start          # build web lalu buka http://localhost:3001
-```
+npm start         ```
 
 Perintah lain: `npm test` (tes API), `npm run build` (type-check + build web), `npm run seed` (isi data awal bila database kosong).
 
