@@ -7,7 +7,6 @@ Proyek UTS PBAD 2026/2027. Domain: **Laundry** (Pelanggan, Layanan, Pesanan). We
 ```
 server/   REST API (Node.js + Express + SQLite) + tes
 web/      Web client (React 18 + TypeScript + Vite)
-docs/     Dokumentasi UTS (latar belakang, use case, data model, tabel API, desain UI)
 ```
 
 ## Prasyarat
@@ -16,18 +15,18 @@ docs/     Dokumentasi UTS (latar belakang, use case, data model, tabel API, desa
 
 ## Menjalankan
 
-Windows: klik dua kali **`Mulai Laundry.cmd`** (install otomatis, menjalankan, dan membuka browser).
-
-Manual:
+Web: http://localhost:5173 (mode dev, proxy ke API) · API: http://localhost:3001/api
 
 ```sh
 npm install
-npm run dev      ```
+npm run dev
+```
 
 Mode produksi (satu server, web ikut disajikan Express):
 
 ```sh
-npm start         ```
+npm start
+```
 
 Perintah lain: `npm test` (tes API), `npm run build` (type-check + build web), `npm run seed` (isi data awal bila database kosong).
 
