@@ -23,6 +23,3 @@ Database tersimpan di `server/data/laundry.db` dan otomatis berisi data contoh s
 | Pesanan | `GET/POST /pesanan`, `GET/PUT/DELETE /pesanan/:id`, `PATCH /pesanan/:id/status`, `PATCH /pesanan/:id/bayar` |
 | Lainnya | `GET /stats`, `GET /health` |
 
-node_modules/
-.env
-*.log
